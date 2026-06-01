@@ -23,7 +23,7 @@ for epoch in range(100000):
         h2 = sigmoid(x1*w3 + x2*w4 +b2)
         o = sigmoid(h1*w5 + h2*w6 +b3)
 
-        # final output
+        # final output error 
         error = XOR_out[i] - o 
 
         # delta of final output
