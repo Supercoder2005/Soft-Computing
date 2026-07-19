@@ -16,7 +16,7 @@ def trapezoidal_mf(x,a,b,c,d):
     else:
         return 0.0
     
-# Blood Pressure (trapexoidal)
+# Blood Pressure (trapezoidal)
 # Low bp --> 1.0 upto 80, 0.0 at 100
 # Normal bp --> rises from (60-80), flat (80-120), falls (120-140)
 # High bp --> rises (120-140), 1.0 after 140
@@ -36,7 +36,7 @@ def bp_high(x):
     else:
         return trapezoidal_mf(x,120,140,140,140)
 
-# Temperature (TRapezoidal)
+# Temperature (Trapezoidal)
 # Normal --> rises(35-36), flat(36-37), falls(37.5-39)
 # High --> rises(37.5-39, full 1.0 after 39)
 

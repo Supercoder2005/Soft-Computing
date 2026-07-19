@@ -2,7 +2,7 @@
 representing relative humidity given by - 
 T = 0.4/16 + 0.8/18 + 1.0/20 + 1.0/22 + 0.8/24 + 0.5/26
 H = 0.2/0 + 0.8/20 + 1.0/40 + 0.6/60 + 0.2/80
-Calculate the membership pf Acceptable temperature or acceptable humidity'''
+Calculate the membership of Acceptable temperature or acceptable humidity'''
 
 T = {16:0.4,
      18:0.8,
