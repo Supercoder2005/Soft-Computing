@@ -31,7 +31,7 @@ max_mu = max(memberships)
 max_elements = []
 for i in range(n):
     if memberships[i] == max_mu:
-        max_elements.append(memberships[i])
+        max_elements.append(elements[i])
 mom_sum = 0
 for i in range(len(max_elements)):
     mom_sum += max_elements[i]
